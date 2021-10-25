@@ -43,7 +43,7 @@ function findLighterBicycle(bicycles) {
     for (let i = 0; i < bicycles.length; i++) {
         const { name, weight } = bicycles[i]
         
-        // interrompe il ciclio for quando trova la corrispondenza
+        // interrompe il ciclo for quando trova la corrispondenza
         if (weight === weights[0]) {
             return container.innerHTML = `Nome bici: ${name}, peso: ${weight}kg`
         }
